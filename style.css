@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff0f6;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.gato, .carta-cerrada {
+  width: 60%;
+  max-width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.gato:hover, .carta-cerrada:hover {
+  transform: scale(1.05);
+}
+
+.mensaje-carta {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 4rem auto;
+  font-size: 1.2rem;
+  max-width: 90%;
+  width: 600px;
+  text-align: left;
+margin-top: 20px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+p{
+  margin-top: 25px;
+  color: black;
+}
